@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - hatchling
     - pip
+    - uv-build
   run:
     - python >={{ python_min }}
     - gemmi

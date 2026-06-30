@@ -1,5 +1,5 @@
 {% set name = "anarcii" %}
-{% set version = "2.0.6" %}
+{% set version = "2.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anarcii-{{ version }}.tar.gz
-  sha256: 368e91148c924300ecae20b9ac0699ef52d8238bcf9d3f503702d2e3554f9877
+  sha256: 38bdcbca15dfbb79ff8b7006390756ceb43803cbf9d2392f93fe464970bcad92
 
 build:
   entry_points:

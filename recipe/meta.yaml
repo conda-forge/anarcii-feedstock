@@ -19,9 +19,8 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - hatchling
     - pip
-    - uv-build
+    - uv-build >=0.11.25,<0.12.0
   run:
     - python >={{ python_min }}
     - gemmi
